@@ -1,0 +1,74 @@
+# ===========================
+# Backend
+# ===========================
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+
+# ===========================
+# LangChain / Agent
+# ===========================
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# ===========================
+# OpenAI
+# ===========================
+openai
+langchain-openai
+tiktoken
+
+# ===========================
+# Git
+# ===========================
+GitPython
+
+# ===========================
+# Security Analysis
+# ===========================
+bandit
+semgrep
+
+# ===========================
+# RAG
+# ===========================
+chromadb
+unstructured
+sentence-transformers
+torch
+
+# ===========================
+# HTTP
+# ===========================
+requests
+httpx
+
+# ===========================
+# Reports
+# ===========================
+markdown
+jinja2
+reportlab
+
+# ===========================
+# Utilities
+# ===========================
+PyYAML
+pathspec
+rich
+tqdm
+typing_extensions
+
+# ===========================
+# Development
+# ===========================
+pytest
+pytest-asyncio
+black
+isort
+flake8
+mypy
